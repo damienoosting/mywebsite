@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 <body>
-    <H1></H1>
+    <H1> enter your information please!</H1>
 <main>
     <form action="formhandler.php" method="post">
         <label for="firstname">First Name:</label>
