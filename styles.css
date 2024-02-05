@@ -1,0 +1,55 @@
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 1);
+}
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-image: linear-gradient(to top, rgb(85, 84, 84), black) ;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+main {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.533);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}form {
+    /* the way everything within the form tags is displayed */
+    display: grid;
+    gap: 15px;
+}
+label {
+    /*label name */
+    font-family: Helvetica, Arial, serif;
+    font-weight: bold;
+    
+    
+}
+input {
+
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #0d3c1ed0;
+    border-radius: 5px;
+}
+button {
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    /*when hovering over button with mouse color changes*/ 
+    background-color: #317334;
+}
+
+
+
+
